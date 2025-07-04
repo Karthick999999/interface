@@ -168,7 +168,7 @@ function App() {
       </main>
 
       <footer className="footer">
-        <p>TodoMaster Web Demo • Built with React</p>
+        <p>TodoMaster Web • Built with React</p>
       </footer>
     </div>
   );
