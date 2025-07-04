@@ -1,0 +1,41 @@
+{
+  "name": "TodoTaskManager",
+  "displayName": "TodoMaster",
+  "version": "1.0.0",
+  "description": "Cross-platform Todo Task Management Mobile App",
+  "main": "index.js",
+  "author": "TodoMaster Team",
+  "license": "MIT",
+  "expo": {
+    "name": "TodoMaster",
+    "slug": "todomaster",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#6750A4"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.todomaster.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.todomaster.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
