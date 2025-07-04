@@ -1,0 +1,14 @@
+# Redirects for TodoMaster SPA
+/*    /index.html   200
+
+# API proxy redirects (if needed)
+/api/*  https://your-backend-api.com/:splat  200
+
+# Force HTTPS
+http://todomaster.netlify.app/*  https://todomaster.netlify.app/:splat  301!
+
+# Handle common routes
+/tasks    /index.html   200
+/profile  /index.html   200
+/settings /index.html   200
+/login    /index.html   200
